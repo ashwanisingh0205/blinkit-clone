@@ -6,6 +6,7 @@ const orderSchema=new mongoose.Schema({
     orderId:{
         type:String,
         unique:true,
+        unique:true
         
     },
     customer:{
